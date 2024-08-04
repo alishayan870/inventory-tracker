@@ -28,10 +28,12 @@ const style = {
   p: 4,
   display: 'flex',
   flexDirection: 'column',
-  gap: 3,
+  gap: 1,
 };
 
 //No HTML since we're using MaterialUI, MaterialUI allows us to use UI already created in our. 
+//For commiting cha
+
 export default function Home() {
 const [pantry, setPantry] = useState([])
 const [open, setOpen] = useState(false)
